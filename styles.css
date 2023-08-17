@@ -43,10 +43,15 @@ body {
 .description {
     text-align: center;
     font-family: 'Outfit', sans-serif;
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 400;
     color: var(--gray-200);
-    margin: 16px;
+    letter-spacing: 0.19px;
+    text-decoration: none;
+    margin-top: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 0 16px;
 }
 
 .attribution {
