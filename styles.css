@@ -1,8 +1,8 @@
 :root {
     --white: #FFFFFF;
     --gray-100: #d5e1ef;
-    --blue-100: hsl(220, 15%, 55%);
-    --blue-500: hsl(218, 44%, 22%);
+    --gray-200: #7D889E;
+    --blue-500: #1F314F;
 }
 
 * {
@@ -30,6 +30,25 @@ body {
     border-radius: 10px;
 }
 
+.title {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--gray-200);
+    margin: 16px;
+
+}
+
+.description {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--gray-200);
+    margin: 16px;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -37,5 +56,5 @@ body {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--blue-500);
 }
